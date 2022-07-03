@@ -1,0 +1,58 @@
+body {
+    width: 1440px;
+    height: 1024;
+}
+
+header {
+    width: 1440px;
+    height: 1024;
+    left:0px;
+    right: 0px;
+}
+
+/* navigation */
+
+.div_header {
+    position: absolute;
+    top: 64px;
+    left: 72px;
+    display: flex;
+    width: 1296px;
+    height: 64px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.div_header h1 {
+    margin-left: -72px;
+}
+
+.light_img {
+    width: 159px;
+    height: 40px;
+}
+
+.nav_bar {
+    width: 392px;
+    height: 24px;
+    display: flex;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    color: #ADADAD;
+    font-size: 18px;
+    line-height: 24px;
+    justify-content: space-around;
+}
+
+.contact_us {
+    width: 180px;
+    height: 64px;
+    background: #232340;
+    border-radius: 8px;
+    color: #FFFFFF;
+}
+
+
+
+
