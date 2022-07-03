@@ -59,6 +59,7 @@ body {
 /* imagem de fundo */
 
 .path_img {
+    z-index: -1;
     position: absolute;
     width: 642.21px;
     height: 819.25px;
@@ -111,4 +112,25 @@ body {
     background: #5468E7;
     border-radius: 8px;
     border-style: none;
+}
+
+/* imagens canto direito */
+
+/*.bg {
+    z-index: 1;
+    position: absolute;
+    top: 222px;
+    left: 735px;
+    width: 570px;
+    height: 722px;
+}*/
+
+.wall {
+    z-index: 2;
+    position: absolute;
+    width: 924px;
+    height: 722px;
+    left: 406px;
+    top: 222px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
