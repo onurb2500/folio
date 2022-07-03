@@ -1,12 +1,11 @@
 body {
-    width: 1440px;
-    height: 1024;
+    margin-left: 50%;
 }
 
-header {
+.header {
     width: 1440px;
     height: 1024;
-    left:0px;
+    left: 0px;
     right: 0px;
 }
 
@@ -45,6 +44,10 @@ header {
     justify-content: space-around;
 }
 
+.nav_bar li:hover {
+    color: #5468E7;
+}
+
 .contact_us {
     width: 180px;
     height: 64px;
@@ -53,6 +56,40 @@ header {
     color: #FFFFFF;
 }
 
+/* imagem de fundo */
 
+.path_img {
+    position: absolute;
+    width: 642.21px;
+    height: 819.25px;
+    left: 321px;
+    top: 0.98px;
 
+}
 
+/* Texto Stand Out */
+
+.div_stand {
+    width: 467px;
+    height: 548px;
+    position: absolute;
+    top: 238px;
+    left: 135px;
+
+}
+
+.div_stand h2 {
+    font-family: 'SF Pro Display';
+    font-size: 84px;
+    font-weight: 700;
+    text-align: left;
+    color: #232340;
+}
+
+.div_stand p {
+
+}
+
+.div_stand button {
+
+}
