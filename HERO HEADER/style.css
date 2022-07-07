@@ -40,7 +40,8 @@
 }
 
 .nav_bar li:hover {
-    color: #5468E7;
+    color: #5468E7 !important;
+    cursor: pointer;
 }
 
 .contact_us {
@@ -173,4 +174,277 @@
     color: #8B8B8B;
 }
 
-.scroll_button img {}
+
+
+/*=============================*/
+
+/* Section 01 */
+
+main {
+    position: absolute;
+    width: 1440px;
+    height: 1024px;
+    top: 1024px;
+    left: 0px;
+    right: 0px;
+    margin: 0 auto;
+
+}
+
+.section_who {
+    position: absolute;
+    width: 1440px;
+    height: 1710px;
+    top: 40.19px;
+    background: #FFFFFF;
+}
+
+/* backgrounds */
+
+.background_who {
+    width: 1440px;
+    height: 1670px;
+    top: 1064px;
+    background: #232340;
+}
+
+.line_bg {
+    position: absolute;
+    top: 40.19px;
+}
+
+.threed_bg {
+    position: absolute;
+    width: 802px;
+    height: 1052px;
+    top: -40.19px;
+    left: 638px;
+}
+
+.desktop_bg {
+    position: absolute;
+    width: 970px;
+    height: 687.86px;
+    top: 403px;
+    left: 335px;
+}
+
+/* heading */
+
+.headline_and_img {
+    position: absolute;
+    display: flex;
+    width: 868px;
+    height: 192px;
+    left: 135px;
+    top: 162px;
+    justify-content: space-between;
+}
+
+.bg_a2 {
+    width: 24px;
+    height: 24px;
+    background: #5468E7;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a_2_img {
+    width: 16.8px;
+    height: 16.57px;
+}
+
+.heading_who {
+    width: 668px;
+    height: 192px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.heading_who strong {
+    color: #8B8B8B;
+    padding-right: 24px;
+}
+
+.heading_who h1 {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+    line-height: 24px;
+}
+
+.heading_who h2 {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-size: 64px;
+    font-weight: 700;
+    color: #FFFFFF;
+    line-height: 72px;
+    letter-spacing: 0px;
+}
+
+.buttons_who {
+    position: absolute;
+    width: 144px;
+    height: 64px;
+    left: 1241px;
+    top: 216px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons_who button {
+    width: 64px;
+    height: 64px;
+    color: #FFFFFF;
+    font-size: 25px;
+    border: none;
+    background: none;
+    transition: 0.3s;
+}
+
+.button_right {
+    transform: rotate(180deg);
+}
+
+.buttons_who button:hover {
+    background: #5468E7;
+    border-radius: 32px;
+}
+
+/*years and h2 e h3*/
+
+.years ul {
+    position: absolute;
+    width: 45px;
+    height: 528px;
+    left: 135px;
+    top: 488px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.years ul li {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #8B8B8B;
+}
+
+.dois_mil_e_vinte {
+    color: #FFFFFF !important;
+}
+
+.h2_who {
+    position: absolute;
+    width: 468px;
+    height: 320px;
+    left: 335px;
+    top: 1221px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.h2_who h2 {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+}
+
+.h2_who p {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #8B8B8B;
+}
+
+.contact_us {
+    width: 180px;
+    height: 64px;
+    font-family: 'SF Pro Display';
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    color: #FFFFFF;
+    background: #5468E7;
+    border-radius: 8px;
+    border-style: none;
+}
+
+.number_who {
+    position: absolute;
+    width: 402px;
+    height: 402px;
+    left: 903px;
+    top: 1140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 0px;
+}
+
+.number_who h3 {
+    position: absolute;
+    top: 105px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 200px;
+    line-height: 239px;
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 180pxpx;
+}
+
+.number_who p {
+    position: absolute;
+    top: 310px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.2px;
+    color: #FFFFFF;
+}
+
+.line_one {
+    position: absolute;
+    width: 24px;
+    height: 4px;
+    left: 49px;
+    top: 876.55px;
+}
+
+.point_line {
+    position: absolute;
+    width: 200px;
+    height: 16px;
+    left: 201px;
+    top: 870.55px;
+}
+
+.line_end {
+    position: absolute;
+    width: 2px;
+    height: 80px;
+    left: 135px;
+    top: 1228px;
+}
