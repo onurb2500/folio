@@ -32,8 +32,8 @@
     display: flex;
     font-family: 'SF Pro Display';
     font-style: normal;
-    font-weight: 600;
-    color: #ADADAD;
+    font-weight: 500;
+    color: #8B8B8B;
     font-size: 18px;
     line-height: 24px;
     justify-content: space-around;
@@ -44,9 +44,15 @@
     cursor: pointer;
 }
 
-.contact_us {
+.contact_us_header {
     width: 180px;
     height: 64px;
+    font-family: 'SF Pro Display';
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 8px;
+    border-style: none;
     background: #232340;
     border-radius: 8px;
     color: #FFFFFF;
@@ -143,13 +149,20 @@
     height: 722px;
 }*/
 
+.wall_bg {
+    position: absolute;
+    width: 570px;
+    height: 722px;
+    left: 735px;
+    top: 222px;
+
+}
+
 .wall {
     z-index: 2;
     position: absolute;
-    width: 924px;
-    height: 722px;
     left: 406px;
-    top: 222px;
+    top: 284px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
@@ -194,7 +207,7 @@ main {
 .section_who {
     position: absolute;
     width: 1440px;
-    height: 1710px;
+    height: 1670px;
     top: 40.19px;
     background: #FFFFFF;
 }
@@ -292,7 +305,7 @@ main {
     position: absolute;
     width: 144px;
     height: 64px;
-    left: 1241px;
+    left: 1161px;
     top: 216px;
     display: flex;
     justify-content: space-between;
@@ -312,9 +325,13 @@ main {
     transform: rotate(180deg);
 }
 
+.button_left {
+    transform: rotate(360deg);
+    border-radius: 32px;
+}
+
 .buttons_who button:hover {
     background: #5468E7;
-    border-radius: 32px;
 }
 
 /*years and h2 e h3*/
@@ -447,4 +464,1293 @@ main {
     height: 80px;
     left: 135px;
     top: 1228px;
+}
+
+/* 02. What We Do */
+
+.two {
+    position: absolute;
+    width: 1440px;
+    height: 1990px;
+    left: 0px;
+    top: 1710px;
+    background: linear-gradient(360deg, rgba(255, 255, 255, 0.0001) 0%, rgba(237, 229, 240, 0.504289) 100%);
+}
+
+.headline_and_img_two {
+    position: absolute;
+    display: flex;
+    width: 868px;
+    height: 192px;
+    left: 135px;
+    top: 152px;
+    justify-content: space-between;
+}
+
+.bg_a2_two {
+    width: 24px;
+    height: 24px;
+    background: #5468E7;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a_2_img_two {
+    width: 16.8px;
+    height: 16.57px;
+}
+
+.heading_two {
+    width: 668px;
+    height: 192px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.heading_two strong {
+    color: #5468E7;
+    padding-right: 24px;
+}
+
+.heading_two h1 {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 600;
+    color: #5468E7;
+    line-height: 24px;
+}
+
+.heading_two h2 {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-size: 64px;
+    font-weight: 700;
+    color: #232340;
+    line-height: 72px;
+    letter-spacing: 0px;
+}
+
+.buttons_two {
+    position: absolute;
+    width: 144px;
+    height: 64px;
+    left: 1161px;
+    top: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons_two button {
+    width: 64px;
+    height: 64px;
+    font-size: 25px;
+    border: none;
+}
+
+.button_left {
+    background: none;
+}
+
+.button_right {
+    width: 64px;
+    height: 64px;
+    transform: rotate(180deg);
+    background: #5468E7;
+    border-radius: 32px;
+}
+
+.line_two {
+    z-index: -1;
+    position: absolute;
+    width: 642.21px;
+    height: 819.25px;
+    left: 114px;
+    top: 0px;
+}
+
+.design_size {
+    position: absolute;
+    width: 1170px;
+    height: 560px;
+    left: 135px;
+    top: 440px;
+    display: flex;
+    align-items: center;
+
+}
+
+.design_buttons {
+    width: 1170px;
+    height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 8px #ffffffaf;
+    border-bottom-left-radius: 48px;
+    border-bottom-right-radius: 48px;
+}
+
+.design_buttons li {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.2px;
+    color: #5468E7;
+}
+
+.li_size {
+    width: 180px;
+    height: 200px;
+}
+
+.li_left {
+    width: 293px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    border-top-left-radius: 48px;
+    border-bottom-left-radius: 48px;
+    transition: 0.3s;
+}
+
+.li_right {
+    width: 293px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    border-top-right-radius: 48px;
+    border-bottom-right-radius: 48px;
+    transition: 0.3s;
+}
+
+.li_center {
+    width: 293px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    transition: 0.3s;
+}
+
+.li_size p {
+    margin-top: 30px;
+}
+
+.li_left:hover,
+.li_center:hover,
+.li_right:hover {
+    width: 293px;
+    height: 560px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    background: #5468E7;
+    border-radius: 48px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.div_line_one_two {
+    z-index: -1;
+    width: 658.22px;
+    height: 780.35px;
+    left: 922px;
+    top: 941px;
+    /* -webkit-mask-image: linear-gradient(360deg, rgba(255, 255, 255, 0.0001) 0%, rgba(237, 229, 240, 0.504289) 100%); */
+    /* background-image: url(images/line\ 1.svg);
+    background-repeat: no-repeat; */
+
+}
+
+.line_one_two {
+    -webkit-mask-image: linear-gradient(360deg, rgba(255, 255, 255, 0.0001) 0%, rgba(237, 229, 240, 0.504289) 100%);
+    z-index: -1;
+    position: absolute;
+    width: 658.22px;
+    height: 780.35px;
+    left: 922px;
+    top: 941px;
+}
+
+.linear_gradient_two {
+    z-index: -1;
+    position: absolute;
+    width: 1440px;
+    height: 2124px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(360deg, rgba(255, 255, 255, 0.0001) 0%, rgba(237, 229, 240, 0.504289) 100%) !important;
+}
+
+.shadow_two {
+    position: absolute;
+    width: 1170px;
+    height: 480px;
+    left: 135px;
+    top: 544px;
+    background: #EBE6ED;
+    mix-blend-mode: multiply;
+    filter: blur(130.478px);
+    border-radius: 48px;
+}
+
+/* 03. Achieve */
+
+.achieve {
+    position: absolute;
+    width: 1440px;
+    height: 786px;
+    left: 0px;
+    top: 2919px;
+}
+
+.oval_three {
+    z-index: -1;
+    position: absolute;
+    width: 467px;
+    height: 467px;
+    left: 135px;
+    top: 166px;
+}
+
+.phone_three {
+    padding-top: 20px;
+}
+
+.content_three {
+    position: absolute;
+    width: 568px;
+    height: 494px;
+    left: 737px;
+    top: 132px;
+}
+
+.content_three h2 {
+    padding-left: 100px;
+    padding-top: 20px;
+    width: 158px;
+    height: 24px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #232340;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content_three h2 em {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #8B8B8B;
+}
+
+.content_three h3 {
+    padding-top: 37px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.5px;
+    color: #000000;
+}
+
+.number_two {
+    padding-top: 83px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 200px;
+    line-height: 239px;
+    color: #5468E7;
+
+}
+
+.paragraph_two {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    color: #000000;
+}
+
+.logo_symbol_three {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 737px;
+    top: 151px;
+}
+
+.pagination_three {
+    position: absolute;
+    width: 96px;
+    height: 16px;
+    left: 321px;
+    top: 770px;
+}
+
+/* 4. famous projects */
+
+/*heading */
+
+.famous_projects {
+    position: absolute;
+    width: 1440px;
+    height: 3232px;
+    left: 0px;
+    top: 3887px;
+}
+
+.heading_famous {
+    position: absolute;
+    width: 868px;
+    height: 252px;
+    left: 135px;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div_heading_famous {
+    width: 668px;
+    height: 252px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.heading_famous_h2 {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 84px;
+    line-height: 100px;
+    letter-spacing: -1px;
+    color: #232340;
+
+}
+
+.heading_famous_paragraph {
+    width: 467px;
+    height: 64px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #606060;
+}
+
+.div_heading_famous strong {
+    color: #5468E7;
+    padding-right: 24px;
+}
+
+.div_heading_famous h1 {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 600;
+    color: #5468E7;
+    line-height: 24px;
+}
+
+.sapiens_button {
+    position: absolute;
+    top: 49px;
+    left: 1139px;
+    width: 180px;
+    height: 64px;
+    font-family: 'SF Pro Display';
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    color: #FFFFFF;
+    background: #5468E7;
+    border-radius: 8px;
+    border-style: none;
+}
+
+/* background */
+
+.sapiens_bg_woman {
+    position: absolute;
+    width: 1440px;
+    height: 913px;
+    left: 0px;
+    top: 212px;
+}
+
+.sapiens_bg_view {
+    position: absolute;
+    width: 72px;
+    height: 72px;
+    left: 468px;
+    top: 903px;
+}
+
+.sapiens_bg_arrow {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 1072px;
+    top: 629px;
+}
+
+/* content */
+
+.sapiens_paragraph {
+    position: absolute;
+    width: 467px;
+    height: 288px;
+    left: 135px;
+    top: 597px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sapiens_paragraph h3 {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.4px;
+    color: #000000;
+}
+
+.sapiens_paragraph p {
+    width: 205px;
+    height: 160px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #606060;
+}
+
+.featured_button {
+    position: absolute;
+    width: 166px;
+    height: 40px;
+    left: 135px;
+    top: 533px;
+    background: #908CFF;
+    border-radius: 20px;
+    color: #FFFFFF;
+    border: none;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+
+}
+
+.features_line_bg {
+    position: absolute;
+    width: 642.21px;
+    height: 819.25px;
+    left: -178.32px;
+    top: 662.2px;
+}
+
+.features_line_bg_img {
+    z-index: -1;
+    position: absolute;
+    left: 0px;
+    top: 662.2px;
+}
+
+/* 4 features */
+
+/* BENTO VOL 2 */
+
+.bento_vol_2 {
+    position: absolute;
+    width: 807px;
+    height: 604px;
+    left: 598px;
+    top: 1118px;
+}
+
+.bento_vol_2_img_1 {
+    position: absolute;
+    width: 366px;
+    height: 380px;
+    left: 340px;
+    top: 70px;
+}
+
+.bento_vol_2_img_2 {
+    position: absolute;
+    width: 750px;
+    height: 536px;
+}
+
+.bento_vol_2_img_3 {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 675px;
+    top: 322px;
+}
+
+.bento_vol_2_content {
+    position: absolute;
+    width: 467px;
+    height: 604px;
+    left: 340px;
+    top: -18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.h4_features {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.4px;
+    color: #232340;
+}
+
+.p_features {
+    width: 366px;
+    height: 96px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #606060;
+}
+
+/* BENTO 3D */
+
+.bento_3d {
+    position: absolute;
+    width: 631px;
+    height: 724px;
+    left: 55px;
+    top: 1413px;
+}
+
+.bento_3d_img_1 {
+    position: absolute;
+    width: 470px;
+    height: 500px;
+    left: 80px;
+    top: 88px;
+}
+
+.bento_3d_img_2 {
+    position: absolute;
+    width: 631px;
+    height: 451px;
+    left: 0px;
+    top: 105px;
+}
+
+.bento_3d_img_3 {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 518px;
+    top: 452px;
+}
+
+.bento_3d_content {
+    position: absolute;
+    width: 467px;
+    height: 724px;
+    left: 80px;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* line bg 2 OPEN */
+
+.features_line_bg_img_2 {
+    z-index: -1;
+    position: absolute;
+    left: 568.82px;
+    top: 1822.39px;
+    transform: rotate(0deg);
+}
+
+/*line bg 2 CLOSE */
+
+.bento_vol_3 {
+    position: absolute;
+    width: 679px;
+    height: 730px;
+    left: 634px;
+    top: 2137px;
+}
+
+.bento_vol_3_img_1 {
+    position: absolute;
+    width: 467px;
+    height: 506px;
+    left: 103px;
+    top: 88px;
+}
+
+.bento_vol_3_img_2 {
+    position: absolute;
+    width: 679px;
+    height: 485px;
+    top: 123px;
+}
+
+.bento_vol_3_img_3 {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 539px;
+    top: 466px;
+}
+
+.bento_vol_3_content {
+    position: absolute;
+    width: 467px;
+    height: 730px;
+    left: 104px;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* sapiens man */
+
+.sapiens_man {
+    position: absolute;
+    width: 398px;
+    height: 730px;
+    left: 235px;
+    top: 2502px;
+}
+
+.sapiens_man_img_1 {
+    position: absolute;
+    top: 88px;
+}
+
+.sapiens_man_img_2 {
+    position: absolute;
+    top: 202.33px;
+}
+
+.sapiens_man_img_3 {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 334px;
+    top: 466px;
+}
+
+.sapiens_man_content {
+    position: absolute;
+    width: 366px;
+    height: 730px;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* 05. CALL TO ACTION */
+
+.call_to_action {
+    position: absolute;
+    width: 1440px;
+    height: 976px;
+    left: 0px;
+    top: 7119px;
+}
+
+.call_to_bg_img {
+    position: absolute;
+    width: 1440px;
+    height: 976px;
+    left: 0px;
+    top: 0px;
+}
+
+.call_to_bg_img_1 {
+    position: absolute;
+    width: 1232px;
+    height: 720px;
+    left: 72px;
+    top: 128px;
+}
+
+.call_to_bg_img_2 {
+    position: absolute;
+    width: 503px;
+    height: 624px;
+    left: 865px;
+    top: 176px;
+}
+
+.call_to_bg_img_3 {
+    position: absolute;
+    width: 1169px;
+    height: 720px;
+    left: 135px;
+    top: 128px;
+}
+
+.call_to_bg_img_4 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 235px;
+    top: 280px;
+}
+
+.call_to_action_content {
+    position: absolute;
+    width: 367px;
+    height: 452px;
+    left: 737px;
+    top: 262px;
+}
+
+.call_to_action_div_content {
+    position: absolute;
+    width: 367px;
+    height: 336px;
+    left: 737px;
+    top: 134px;
+}
+
+.call_to_action_content h2 strong {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding-right: 24px;
+}
+
+.call_to_action_content h2 {
+    width: 154px;
+    height: 24px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.call_to_action_content h3 {
+    width: 367px;
+    height: 288px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 72px;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+    padding-top: 24px;
+}
+
+.call_to_action_content button {
+    width: 201px;
+    height: 64px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #5468E7;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    margin-top: 52px;
+}
+
+/* JOBS */
+
+.jobs {
+    position: absolute;
+    width: 1440px;
+    height: 1328px;
+    left: 0px;
+    top: 8125px;
+}
+
+.jobs_bg_img {
+    width: 1440px;
+    height: 1328px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(360deg, rgba(211, 211, 211, 0.164) 0%, rgba(237, 229, 240, 0.504289) 100%);
+}
+
+.jobs_bg_img_1 {
+    position: absolute;
+    width: 642px;
+    height: 819px;
+    left: 328px;
+    top: 0px;
+}
+
+.jobs_bg_img_2 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 135px;
+    top: 128px;
+}
+
+/* content */
+
+.jobs_content {
+    position: absolute;
+    width: 468px;
+    height: 436px;
+    left: 235px;
+    top: 128px;
+}
+
+.jobs_content h2 {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #5468E7;
+}
+
+.jobs_content h2 strong {
+    padding-right: 24px;
+}
+
+.jobs_content h3 {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 110px;
+    line-height: 131px;
+    letter-spacing: -1.2px;
+    color: #232340;
+    padding-top: 24px;
+}
+
+.jobs_content p {
+    width: 367px;
+    height: 96px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #606060;
+    padding-top: 41px;
+}
+
+.jobs_content_arrow {
+    padding-top: 72px;
+    width: 158px;
+    height: 48px;
+}
+
+.jobs_content_arrow h6 {
+    position: absolute;
+    top: 388px;
+    left: 64px;
+    width: 94px;
+    height: 48px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #8B8B8B;
+}
+
+/* cards */
+
+.jobs_cards {
+    position: absolute;
+    width: 568px;
+    height: 1072px;
+    left: 737px;
+    top: 128px;
+}
+
+.jobs_cards_ul {
+    position: absolute;
+    width: 568px;
+    height: 1072px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.jobs_cards_li {
+    width: 568px;
+    height: 247px;
+    background: #FFFFFF;
+    border-radius: 40px;
+    margin-bottom: 21px;
+    transition: 0.3s;
+}
+
+.jobs_cards_img_visual {
+    z-index: -1;
+    position: absolute;
+    width: 215px;
+    height: 215px;
+    left: 337px;
+    top: 284px;
+    transition: 0.1s;
+}
+
+.jobs_cards_li:hover {
+    background: #232340;
+}
+
+.jobs_cards_li:hover h4 {
+    color: #FFFFFF;
+}
+
+.jobs_cards_li:hover .jobs_cards_li_button_img {
+    filter: brightness(100)
+}
+
+.jobs_cards_li:hover .jobs_cards_img_visual {
+    z-index: 1;
+}
+
+.jobs_cards_li h4 {
+    margin-top: 64px;
+    margin-left: 64px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.5px;
+    color: #232340;
+    transition: 0.3s;
+}
+
+.jobs_cards_li p {
+    margin-top: 4px;
+    margin-left: 64px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #606060;
+}
+
+.jobs_cards_li button {
+    margin-top: 29px;
+    margin-left: 64px;
+    background: none;
+    border: none;
+    transition: 0.3s;
+}
+
+.jobs_notification_1 {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 324px;
+    top: 68px;
+    border-radius: 16px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    background: linear-gradient(#3A8FFF, #0837AE);
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.jobs_notification_2 {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 286px;
+    top: 872px;
+    border-radius: 16px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    background: linear-gradient(#3A8FFF, #0837AE);
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+/* FOOTER */
+
+.footer {
+    position: absolute;
+    width: 1441px;
+    height: 1515px;
+    left: 0px;
+    top: 9453px;
+    background: rgba(211, 211, 211, 0.164);
+}
+
+.footer_rectangle {
+    position: absolute;
+    width: 1441px;
+    height: 1024px;
+    left: 0px;
+    border: none;
+}
+
+.footer_rectangle_blue {
+    position: absolute;
+    width: 1296px;
+    height: 1024px;
+    left: 72px;
+    background: #5468E7;
+    border-radius: 40px;
+    border: none;
+}
+
+.footer_rectangle_path {
+    position: absolute;
+    width: 642.21px;
+    height: 819.25px;
+    left: 191px;
+}
+
+.footer_rectangle_line_1 {
+    position: absolute;
+    width: 1441px;
+    height: 1px;
+    left: 0px;
+    top: 512px;
+}
+
+.footer_rectangle_line_2 {
+    position: absolute;
+    width: 1px;
+    height: 511px;
+    left: 720px;
+    top: 513px;
+}
+
+.footer_say_hello {
+    position: absolute;
+    width: 568px;
+    height: 208px;
+    left: 436px;
+    top: 128px;
+    align-items: center;
+    text-align: center;
+}
+
+.footer_say_hello p {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 40px;
+}
+
+.footer_say_hello p strong {
+    padding-right: 12px;
+}
+
+
+.footer_say_hello h4 {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+    padding-top: 40px;
+}
+
+.footer_lets_talk {
+    position: absolute;
+    width: 367px;
+    height: 216px;
+    left: 235px;
+    top: 633px;
+}
+
+.footer_lets_talk h3 {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 72px;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+}
+
+.footer_invest {
+    position: absolute;
+    width: 465px;
+    height: 212px;
+    left: 838px;
+    top: 633px;
+}
+
+.footer_invest_img {
+    position: absolute;
+    width: 103px;
+    height: 103px;
+}
+
+.footer_invest h4 {
+    position: absolute;
+    width: 367px;
+    height: 80px;
+    left: 0px;
+    top: 132px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+}
+
+.footer_arrow {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 381px;
+    top: 132px;
+}
+
+.footer_down {
+    position: absolute;
+    width: 1440px;
+    height: 491px;
+    left: 0px;
+    top: 1024px;
+}
+
+.footer_down_content {
+    position: absolute;
+    width: 565px;
+    height: 232px;
+    left: 438px;
+    top: 128px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_down_content h3 {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    color: #606060;
+}
+
+.footer_down_ending {
+    position: absolute;
+    width: 1170px;
+    height: 51px;
+    left: 135px;
+    top: 408px;
+    border-top: 1px solid #D8D8D8;
+}
+
+.footer_down_ending_rights {
+    position: absolute;
+    top: 33px;
+    left: 0px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #ADADAD;
+}
+
+.footer_down_ending_p_follow {
+    position: absolute;
+    top: 33px;
+    left: 937px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #5468E7;
+}
+
+.footer_down_ending_img {
+    position: absolute;
+    top: 34px;
+    left: 1042px;
+}
+
+.path_copy {
+    z-index: -1;
+    position: absolute;
+    left: 900px;
+    top: 1024px;
 }
